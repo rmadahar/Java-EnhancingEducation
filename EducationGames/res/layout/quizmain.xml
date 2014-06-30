@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:stretchColumns="1"
+	android:background="@drawable/bluebg" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableRow>
+		<Button android:id="@+id/Circle" android:layout_width="102px"
+			android:layout_height="80px" android:background="@drawable/circleface_button"
+			android:layout_marginTop="2px" android:layout_marginLeft="5px">
+		</Button>
+		<ImageView android:background="@drawable/speech_title1"
+			android:layout_width="180dip" android:id="@+id/Title"
+			android:layout_height="90dip"></ImageView>
+	</TableRow>
+	<View android:layout_height="4dip" android:background="#FF909090"
+		android:layout_marginTop="2px" />
+
+	<TableRow android:stretchColumns="3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+
+		<TextView android:id="@+id/questions" android:layout_width="30px"
+			android:layout_height="65px" android:textSize="15sp"
+			android:layout_marginTop="5px" android:layout_span="3"
+			android:gravity="center" android:layout_weight="1" />
+	</TableRow>
+
+
+
+
+	<View android:layout_height="4dip" android:background="#FF909090"
+		android:layout_marginTop="5px" />
+	<TableRow>
+		<TextView android:id="@+id/label1" android:padding="1dip"
+			android:textColor="#FFFF00" android:textStyle="bold"
+			android:shadowColor="#00ccff" android:shadowRadius="5"
+			android:shadowDx="3" android:shadowDy="3" android:text="Choose amount of points:"
+			android:layout_span="2" android:layout_marginTop="3px" />
+	</TableRow>
+	<TableRow>
+		<SeekBar android:id="@+id/seek_bar0" android:padding="4dip"
+			android:layout_span="2" />
+	</TableRow>
+	<View android:layout_height="4dip" android:background="#FF909090"
+		android:layout_marginTop="5px" />
+	<TableRow>
+		<TextView android:id="@+id/score" android:padding="1dip"
+			android:textColor="#FFFF00" android:textSize="25sp"
+			android:textStyle="bold" android:shadowColor="#00ccff"
+			android:shadowRadius="5" android:shadowDx="3" android:shadowDy="3"
+			android:text="SCORE:" />
+		<TextView android:id="@+id/currentScore"
+			android:layout_width="10px" android:textColor="#FFFF00"
+			android:textSize="25sp" android:textStyle="bold" android:shadowColor="#00ccff"
+			android:shadowRadius="5" android:shadowDx="3" android:shadowDy="3"
+			android:layout_height="30px" />
+	</TableRow>
+	<View android:layout_height="4dip" android:background="#FF909090"
+		android:layout_marginTop="5px" />
+	<TableLayout android:layout_marginTop="5px"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:id="@+id/TableLayout01" android:stretchColumns="3">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<Button android:text="Set Points" android:layout_width="106px"
+				android:id="@+id/btnSetPoints" android:layout_height="35px"></Button>
+			<Button android:text="Answer" android:layout_width="106px"
+				android:id="@+id/btnAnswer" android:layout_height="35px"></Button>
+			<Button android:text="Quit Game" android:layout_width="106px"
+				android:id="@+id/btnQuit" android:layout_height="35px"></Button>
+		</TableRow>
+		<View android:layout_height="4dip" android:background="#FF909090"
+			android:layout_marginTop="5px" />
+		<TableLayout android:stretchColumns="4" android:id="@+id/tableLayout1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<TableRow>
+				<EditText android:id="@+id/scoreset" android:padding="1dip"
+					android:textColor="#000000" android:textSize="25sp"
+					android:gravity="center" android:textStyle="bold"
+					android:layout_marginTop="16px" android:shadowRadius="5"
+					android:layout_marginLeft="5px" android:layout_height="70px"
+					android:layout_width="67px" />
+				<Button android:id="@+id/mag" android:layout_width="67px"
+					android:layout_height="70px" android:layout_marginTop="8px"
+					android:layout_marginLeft="15px" android:background="@drawable/magnglass_button"></Button>
+				<Button android:id="@+id/books" android:layout_width="67px"
+					android:layout_height="70px" android:layout_marginTop="8px"
+					android:layout_marginLeft="11px" android:background="@drawable/books_button"></Button>
+				<Button android:id="@+id/video" android:layout_width="67px"
+					android:layout_height="70px" android:layout_marginTop="8px"
+					android:layout_marginLeft="15px" android:background="@drawable/movie_button"></Button>
+
+
+			</TableRow>
+
+
+		</TableLayout>
+	</TableLayout>
+	<WebView android:id="@+id/webview" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" />
+
+
+</TableLayout>

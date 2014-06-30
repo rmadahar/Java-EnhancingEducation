@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bluebg">
+<TextView 
+android:layout_x="17dip" 
+android:layout_y="15dip" 
+android:id="@+id/Question" 
+android:layout_width="wrap_content"  
+android:layout_height="wrap_content"
+android:textColor="#FFFF00"
+android:textStyle="bold" android:shadowColor="#00ccff"
+android:shadowRadius="5" android:shadowDx="3" android:shadowDy="3"
+android:text="Hello"></TextView>
+
+
+<RadioGroup
+	android:id="@+id/rdbGp1"
+	android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_y="60dip"
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical"
+				>
+</RadioGroup>
+	
+
+<Button 
+	android:text="Back" android:id="@+id/btnBack" android:layout_width="100dip" android:layout_height="wrap_content" android:layout_x="50dip" android:layout_y="250dip"></Button>
+<Button android:text="Feedback" android:id="@+id/btnFeedB" android:layout_width="100dip" android:layout_height="wrap_content" android:layout_x="175dip" android:layout_y="250dip"></Button>
+
+<TextView 
+android:layout_x="0dip" 
+android:layout_y="320dip" 
+android:id="@+id/AnswerState" 
+android:layout_width="wrap_content" 
+android:text="" 
+android:textSize="15sp"
+android:layout_height="wrap_content"></TextView>
+
+<TextView 
+android:layout_x="0dip" 
+android:layout_y="350dip" 
+android:id="@+id/feedback" 
+android:layout_width="wrap_content" 
+android:text="Feedback" 
+android:textColor="#FFFF00" android:textSize="15sp"
+				android:textStyle="bold" android:shadowColor="#00ccff"
+				android:shadowRadius="5" android:shadowDx="3" android:shadowDy="3"
+android:layout_height="wrap_content"></TextView>
+
+-
+</AbsoluteLayout>

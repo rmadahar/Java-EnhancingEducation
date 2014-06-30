@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget32"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<TextView android:text="@string/text3" 
+android:id="@+id/TextView01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:background="@drawable/background"></TextView>
+
+<WebView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/webview"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+/>
+</RelativeLayout>

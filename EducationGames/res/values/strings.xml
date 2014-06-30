@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, test!</string>
+    <string name="app_name">EnhancingEducation</string>
+ <string name="text1">The aim of the game is to take a risk on a question.
+     You need to set how many points you would like to risk. You can then answer the question and either gain or lose the points.</string>
+    <string name="text2">(1)Click Blueface to get a question >>></string>
+    <string name="text3">(2)Choose the amount of points you want to risk and click set points >>></string>
+    <string name="text4">(3)Click on the answer button</string>
+        <string name="text5">(5)Answer the question</string>
+        <string name="text6">(6)Click feedback to see the answer or just click back to continue with the game.</string>
+            <string name="text7">(7)You can reset the game at any point by pressing quit</string>
+             <string name="text8">The questions are based on Of Mice and Men. The aim of the game is to 
+             press the play button. Listen to the question and answer the question. The game would require appropriate grammer to be used
+             such as (Curely\'s) not Curleys. You have three tries to guess the answer and you will score more points for guessing sooner.
+             Only 1 guess on true, false, yes and no answers</string>
+              <string name="text9">(1)Press play</string>
+               <string name="text10">(2)Enter answer</string>
+                <string name="text11">(3)Press confirm</string>
+             <string name="text12">(4)Press replay to listen again</string>
+              <string name="text13">(5)Press play again to skip</string>
+              <string name="text14">(6)Press show hint to see a hint</string>
+               <string name="text15">Replay</string>
+                <string name="text16">This game is a 2 player guessing game. Within this game one player will enter a word and the
+                2nd player will guess the word. Then the 2nd player will enter a word and the 1st player will guess the word. 
+                When the first player to reach 100 wins the game. </string>
+                 <string name="text17">The confirm buttons are to confirm whether you have answered or entered a word.</string>
+                    <string name="text18">The definition button is useful to look up the definition of the word.</string>
+ <string name="text19">The word serve button will provide you  with words if you cannot think of any words</string>
+ <string name="text20">The clear web button will clear the web after you have pressed word serve so the next player
+ cannot see the words.</string>
+ <string name="text21">The reset button will reset the game</string>
+
+</resources>

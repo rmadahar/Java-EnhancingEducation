@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+     android:background="@drawable/background"
+    android:stretchColumns="1">
+<TableRow android:gravity="center_horizontal">
+<ImageView 
+   android:id="@+id/Title"
+   android:layout_width="200dip"
+   android:layout_height="130dip"
+   android:layout_marginTop="-10dip"/>
+</TableRow>
+					<TableRow android:gravity="center_horizontal">
+<Button android:id="@+id/Play" 
+ android:layout_marginTop="-10dip"
+ android:background="@drawable/play_button"
+ android:layout_width="wrap_content"
+  android:layout_height="100px"></Button>
+</TableRow>
+<TextView
+android:id="@+id/widget34"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+
+>
+</TextView>		
+
+<TableLayout>
+<TableRow  android:stretchColumns="3"  android:gravity="center_horizontal">
+<Button  
+android:id="@+id/btnReplay" 
+android:layout_width="120dip" 
+android:layout_height="wrap_content" 
+android:background="@drawable/replay_button"
+></Button>
+<ImageView 
+   android:id="@+id/Status"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   />
+<Button 
+android:id="@+id/ShowHint" 
+android:background="@drawable/showhint_button"
+android:layout_width="120dip" 
+android:layout_height="wrap_content" ></Button>
+</TableRow>
+</TableLayout>
+<TableLayout android:stretchColumns="2">
+			<TableRow android:gravity="center_horizontal">
+<EditText android:id="@+id/Answer" android:layout_width="285dip"
+android:hint="Answer Here" android:inputType="text"
+				android:layout_height="30px" android:background="@android:drawable/editbox_background"/>	
+</TableRow>
+<TableLayout>
+<TableRow>
+<Button android:background="@drawable/confirm_button"
+android:id="@+id/btnConfirm" 
+android:layout_width="110dip" 
+android:layout_height="50dip" 
+android:layout_marginTop="2dip"
+android:layout_marginLeft="14dip"
+></Button>
+<ImageView 
+ android:layout_marginLeft="80dip"
+   android:id="@+id/Various"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:gravity="right"
+   android:layout_marginTop="10dip"
+   />
+</TableRow>
+<TextView android:id="@+id/Score" android:text="Score:" android:layout_width="wrap_content"
+ android:gravity="left" 
+ 
+ android:layout_marginRight="20dip"
+ android:textStyle="bold" android:textSize="18sp"
+ />
+ <TextView android:id="@+id/GameOver" android:layout_width="30px"
+ android:gravity="left" android:layout_marginTop="-40dip"
+ android:text="" />	
+ <TextView android:id="@+id/Turns" android:layout_width="wrap_content"
+  android:gravity="left"
+ android:layout_marginLeft="110dip"
+ android:layout_marginTop="-25dip"
+  android:textSize="18sp"
+				android:textStyle="bold" android:shadowColor="#00FF00"
+ />
+</TableLayout>
+
+</TableLayout>
+</TableLayout>
+ <ImageView  android:layout_marginLeft="100dip"
+    	android:layout_marginTop="405dip"
+    android:background="@drawable/speaker"
+			android:layout_width="30dip" android:id="@+id/turn1" android:layout_height="50dip"></ImageView> 
+	 <ImageView android:layout_marginLeft="150dip"
+				android:layout_marginTop="405dip"
+ android:background="@drawable/speaker"
+			android:layout_width="30dip" android:id="@+id/turn2" android:layout_height="50dip"></ImageView>
+
+<ImageView
+			android:layout_width="30dip" android:id="@+id/turn3" android:layout_height="50dip"
+			android:layout_marginLeft="200dip"
+			android:layout_marginTop="405dip"
+			 android:background="@drawable/speaker"></ImageView>   
+		
+   
+			 
+
+</RelativeLayout>

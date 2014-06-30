@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+android:background="@drawable/background"
+  >
+    <TextView android:layout_marginTop="10px" 
+    android:textStyle="bold" 
+    android:gravity="center" 
+    android:textSize="20sp" 
+    android:layout_width="fill_parent" 
+    android:text="TextView" 
+    android:layout_height="wrap_content" 
+    android:textColor="#FFFF00" 
+    android:id="@+id/questions"></TextView>
+  
+ <TextView android:layout_width="fill_parent" 
+ android:layout_height="wrap_content" 
+ android:textStyle="bold" 
+ android:textColor="#FFFF00" android:textSize="15sp"
+ android:shadowColor="#00ccff"
+android:shadowRadius="5" android:shadowDx="3" android:shadowDy="3"
+ android:text="Choose an answer:" 
+ android:gravity="center"/>
+ <RadioGroup android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ android:layout_gravity="center_horizontal"
+ android:id="@+id/QueGroup1">
+ <RadioButton android:checked="false"
+ android:id="@+id/option1" android:text="Android Package"/>
+ <RadioButton android:checked="false"
+ android:id="@+id/option2" android:text="Android Platform"/>
+  <RadioButton android:checked="false"
+ android:id="@+id/option3" android:text="Android Platform"/>
+ </RadioGroup>
+ <Button android:layout_height="53px" android:text="Confirm Selection" android:id="@+id/selected" android:layout_width="wrap_content" android:gravity="center|center_horizontal"/>
+
+</LinearLayout>
